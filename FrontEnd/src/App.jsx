@@ -8,7 +8,7 @@ import "./App.css";
 import { Context } from "./main";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./Pages/Home";
+import Home from "./Pages/Home.jsx";
 import Appointment from "./Pages/Appointment";
 import AboutUs from "./Pages/AboutUs";
 import Register from "./Pages/Register";
@@ -20,7 +20,7 @@ const App = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/api/v1/user/patient/me", {
+        const response = await axios.get("https://new12-backend.onrender.com/api/v1/user/patient/me", {
           withCredentials: true,
         });
         setIsAuthenticated(true);
