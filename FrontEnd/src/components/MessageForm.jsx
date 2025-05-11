@@ -13,7 +13,7 @@ const MessageForm = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/v1/message/send",
+        "https://new12-backend.onrender.com/api/v1/message/send",
         { firstName, lastName, email, phone, message },
         {
           withCredentials: true,
