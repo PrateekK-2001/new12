@@ -80,7 +80,7 @@ config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: ["https://fnrtend1.onrender.com/", "https://prateekdash.onrender.com/"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
