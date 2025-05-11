@@ -4,7 +4,7 @@ import Biography from "../components/Biography";
 import MessageForm from "../components/MessageForm";
 import Departments from "../components/Departments";
 
-const Home = () => {
+const home = () => {
   return (
     <>
       <Hero
@@ -20,4 +20,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default home;
