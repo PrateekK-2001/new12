@@ -80,7 +80,7 @@ config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: ["https://fnrtend1.onrender.com", "https://prateekdash.onrender.com"],
+    origin: ["https://fnrtend1.onrender.com", "https://https://new12-dashboard.onrender.com"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
